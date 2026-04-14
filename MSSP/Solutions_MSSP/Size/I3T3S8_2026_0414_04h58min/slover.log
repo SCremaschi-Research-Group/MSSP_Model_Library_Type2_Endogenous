@@ -1,0 +1,52 @@
+Solver command line: ['C:\\Users\\yasuh\\OneDrive\\Python\\Pyomo\\glpk-4.65\\w64\\glpsol.exe', '--write', 'C:\\Users\\yasuh\\AppData\\Local\\Temp\\tmpbdj8osr6.glpk.raw', '--wglp', 'C:\\Users\\yasuh\\AppData\\Local\\Temp\\tmpp1hyv0j2.glpk.glp', '--cpxlp', 'C:\\Users\\yasuh\\AppData\\Local\\Temp\\tmpuj3vilks.pyomo.lp']
+
+GLPSOL: GLPK LP/MIP Solver, v4.65
+Parameter(s) specified in the command line:
+ --write C:\Users\yasuh\AppData\Local\Temp\tmpbdj8osr6.glpk.raw --wglp C:\Users\yasuh\AppData\Local\Temp\tmpp1hyv0j2.glpk.glp
+ --cpxlp C:\Users\yasuh\AppData\Local\Temp\tmpuj3vilks.pyomo.lp
+Reading problem data from 'C:\Users\yasuh\AppData\Local\Temp\tmpuj3vilks.pyomo.lp'...
+C:\Users\yasuh\AppData\Local\Temp\tmpuj3vilks.pyomo.lp:18278: warning: lower bound of variable 'x1' redefined
+C:\Users\yasuh\AppData\Local\Temp\tmpuj3vilks.pyomo.lp:18278: warning: upper bound of variable 'x1' redefined
+2905 rows, 445 columns, 8521 non-zeros
+444 integer variables, 72 of which are binary
+18350 lines were read
+Writing problem data to 'C:\Users\yasuh\AppData\Local\Temp\tmpp1hyv0j2.glpk.glp'...
+15200 lines were written
+GLPK Integer Optimizer, v4.65
+2905 rows, 445 columns, 8521 non-zeros
+444 integer variables, 72 of which are binary
+Preprocessing...
+96 hidden covering inequaliti(es) were detected
+208 constraint coefficient(s) were reduced
+2588 rows, 424 columns, 7520 non-zeros
+424 integer variables, 80 of which are binary
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  3.000e+04  ratio =  3.000e+04
+GM: min|aij| =  7.936e-01  max|aij| =  1.260e+00  ratio =  1.588e+00
+EQ: min|aij| =  6.376e-01  max|aij| =  1.000e+00  ratio =  1.568e+00
+2N: min|aij| =  5.000e-01  max|aij| =  1.000e+00  ratio =  2.000e+00
+Constructing initial basis...
+Size of triangular part is 2483
+Solving LP relaxation...
+GLPK Simplex Optimizer, v4.65
+2588 rows, 424 columns, 7520 non-zeros
+      0: obj =   4.503000000e+03 inf =   7.984e+04 (232)
+    176: obj =   4.039118750e+04 inf =   0.000e+00 (0)
+*   352: obj =   3.637625000e+04 inf =   1.488e-12 (0) 2
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
+Long-step dual simplex will be used
++   352: mip =     not found yet >=              -inf        (1; 0)
++   958: >>>>>   3.775662500e+04 >=   3.685100000e+04   2.4% (48; 6)
++  2011: >>>>>   3.773025000e+04 >=   3.710487500e+04   1.7% (139; 35)
+Solution found by heuristic: 37710
++  3919: >>>>>   3.768025000e+04 >=   3.731187500e+04   1.0% (208; 125)
++  5403: >>>>>   3.761875000e+04 >=   3.741470313e+04   0.5% (264; 238)
++  6514: >>>>>   3.761200000e+04 >=   3.748518750e+04   0.3% (210; 486)
++  8095: mip =   3.761200000e+04 >=     tree is empty   0.0% (0; 1285)
+INTEGER OPTIMAL SOLUTION FOUND
+Time used:   3.2 secs
+Memory used: 5.5 Mb (5780314 bytes)
+Writing MIP solution to 'C:\Users\yasuh\AppData\Local\Temp\tmpbdj8osr6.glpk.raw'...
+3359 lines were written
+

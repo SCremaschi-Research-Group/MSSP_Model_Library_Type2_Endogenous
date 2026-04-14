@@ -1,0 +1,33 @@
+# ==========================================================
+# = Solver Results                                         =
+# ==========================================================
+# ----------------------------------------------------------
+#   Problem Information
+# ----------------------------------------------------------
+Problem: 
+- Name: unknown
+  Lower bound: 37612.0
+  Upper bound: 37612.0
+  Number of objectives: 1
+  Number of constraints: 2905
+  Number of variables: 445
+  Number of nonzeros: 8521
+  Sense: minimize
+# ----------------------------------------------------------
+#   Solver Information
+# ----------------------------------------------------------
+Solver: 
+- Status: ok
+  Termination condition: optimal
+  Statistics: 
+    Branch and bound: 
+      Number of bounded subproblems: 1285
+      Number of created subproblems: 1285
+  Error rc: 0
+  Time: 3.2497048377990723
+# ----------------------------------------------------------
+#   Solution Information
+# ----------------------------------------------------------
+Solution: 
+- number of solutions: 0
+  number of solutions displayed: 0
